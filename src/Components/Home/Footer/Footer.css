@@ -1,0 +1,24 @@
+.footer {
+    color: white;
+    font-weight: 200;
+
+}
+
+.footer-bg {
+    background: #292929;
+    margin-top: 50px;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hover-style:hover {
+    cursor: pointer;
+    color: #0d6efd;
+    text-decoration: underline;
+}

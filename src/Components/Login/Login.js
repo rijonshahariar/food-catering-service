@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Button, Form } from 'react-bootstrap';
 import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../Firebase/firebase.init';
 import login from '../Images/4957136.jpg';
 import SocialLogin from '../SocialLogin/SocialLogin';
@@ -10,11 +11,12 @@ const Login = () => {
     const [user] = useAuthState(auth);
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const [error, setError] = useState("")
     const navigate = useNavigate()
+    const location = useLocation();
 
+    let from = location.state?.from?.pathname || "/";
     // log in with email and password
-    const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, ruser, loading, error] = useSignInWithEmailAndPassword(auth);
 
     const handleEmailBlur = (e) => {
         setEmail(e.target.value)
@@ -28,7 +30,8 @@ const Login = () => {
         signInWithEmailAndPassword(email, password)
     }
     if (user) {
-        navigate('/home')
+        navigate(from, { replace: true });
+
     }
 
     return (
@@ -38,25 +41,28 @@ const Login = () => {
                 <img className="img-fluid" src={login} alt="" />
             </div>
             <div className="col-md-6 align-items-center justify-content-center d-flex">
-                <form onSubmit={handleUserSignIn}>
+
+                <Form onSubmit={handleUserSignIn}>
                     <h2 className="text-center text-primary mb-4">Login</h2>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" onBlur={handleEmailBlur} placeholder="Enter email" />
 
-                    <div className="mb-3">
-                        <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                        <input type="email" onBlur={handleEmailBlur} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
-                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                        <input type="password" onBlur={handlePasswordBlur} className="form-control" id="exampleInputPassword1" required />
-                    </div>
+                    </Form.Group>
 
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control type="password" onBlur={handlePasswordBlur} placeholder="Password" />
+                    </Form.Group>
+
+                    <p className="mt-2 text-danger">{error?.message}</p>
                     <p>New to Aahar? <Link className="form_link" to="/register">Create a new account</Link></p>
-                    <button type="submit" className="btn btn-primary">Submit</button>
-
+                    <Button variant="primary" type="submit">
+                        Login
+                    </Button>
                     <SocialLogin></SocialLogin>
+                </Form>
 
-                </form>
             </div>
 
 
