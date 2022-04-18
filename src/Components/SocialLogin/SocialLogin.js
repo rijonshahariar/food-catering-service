@@ -6,6 +6,7 @@ import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/a
 import auth from '../../Firebase/firebase.init';
 import { useNavigate } from 'react-router-dom';
 import './SocialLogin.css'
+import Loading from '../Loading/Loading';
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub, user1, loading1, error1] = useSignInWithGithub(auth);
@@ -14,7 +15,7 @@ const SocialLogin = () => {
     let errorAlert;
 
     if (loading || loading1) {
-        return <p>Loading...</p>;
+        return <Loading></Loading>;
     }
 
     if (error || error1) {
