@@ -1,0 +1,51 @@
+.reviewcontainer {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #363636;
+    display: inline-block;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    margin: 25px 10px 10px;
+
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-top: 5px solid grey;
+}
+
+.caption {
+    padding: 13% 10% 12%;
+}
+
+.reviewcontainer img {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border: 3px solid grey;
+    left: 50%;
+    background-color: white;
+    line-height: 60px;
+    position: absolute;
+    top: -50px;
+    margin-bottom: 20px;
+    width: 150px;
+    margin: auto;
+
+}
+
+.reviewcontainer h1 {
+    color: #3c3c3c;
+    font-weight: 300;
+
+    margin: 10px 0 5px;
+}
+
+
+@media only screen and (max-width: 1060px) {
+    .caption {
+        margin-top: 4.5rem;
+        padding: 13% 10% 12%;
+    }
+}
