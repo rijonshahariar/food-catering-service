@@ -1,13 +1,14 @@
-import { sendPasswordResetEmail } from 'firebase/auth';
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useAuthState, useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { toast, ToastContainer } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import auth from '../../Firebase/firebase.init';
 import login from '../Images/4957136.jpg';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import Loading from '../Loading/Loading'
+import 'react-toastify/dist/ReactToastify.css';
+
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
@@ -58,7 +59,7 @@ const Login = () => {
 
     return (
         <div className="row mx-auto">
-            <ToastContainer />
+
             <div className="col-md-6 img-container ">
                 <img className="img-fluid" src={login} alt="" />
             </div>
@@ -92,7 +93,7 @@ const Login = () => {
 
             </div>
 
-
+            <ToastContainer />
         </div >
     );
 };
