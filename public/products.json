@@ -1,0 +1,86 @@
+[
+    {
+        "id": "623eb9a23e8db81caa212218",
+        "picture": "https://i.ibb.co/MMNF0MC/kalogam.jpg",
+        "name": "Kalojam",
+        "bdt": 400,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a29ecc0db3d38529dc",
+        "picture": "https://i.ibb.co/6yVzSvJ/pineapple-sandesh.jpg",
+        "name": "Pineapple Sandesh",
+        "bdt": 385,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a2950eabb29d7143e7",
+        "picture": "https://i.ibb.co/3v39HVp/penda.jpg",
+        "name": "Penda Sweet",
+        "bdt": 250,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a266e84a09a0a168d0",
+        "picture": "https://i.ibb.co/1LSfgRG/chicken-khichuri.jpg",
+        "name": "Chicken Khichuri",
+        "bdt": 300,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a2ecdba868286d3ba1",
+        "picture": "https://i.ibb.co/1strKjm/sahi-porota.jpg",
+        "name": "Shahi Porota",
+        "bdt": 100,
+        "rate": 5
+    },
+    {
+        "id": "623eb9a239bb8fc38721d082",
+        "picture": "https://i.ibb.co/L9BJ7nr/beef-curry.jpg",
+        "name": "Beef Curry",
+        "bdt": 320,
+        "rate": 3
+    },
+    {
+        "id": "623eb9a25b1c853106efa58b",
+        "picture": "https://i.ibb.co/Dbn51MJ/chicken-grill.jpg",
+        "name": "Chicken Grill",
+        "bdt": 100,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a2ff31fee084195f95",
+        "picture": "https://i.ibb.co/84p403m/Chicken-Shawarma-Burger.jpg",
+        "name": "Chicken Burger",
+        "bdt": 80,
+        "rate": 3
+    },
+    {
+        "id": "623eb9a2c226b7a071e161e1",
+        "picture": "https://i.ibb.co/wyMmQ9b/chicken-biryani.jpg",
+        "name": "Chicken Biryani",
+        "bdt": 125,
+        "rate": 5
+    },
+    {
+        "id": "623eb9a2456440dc23bb8829",
+        "picture": "https://i.ibb.co/2sjKYPT/laddu1.jpg",
+        "name": "Laddu",
+        "bdt": 120,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a27bc0e8b11dt43469",
+        "picture": "https://i.ibb.co/2Z50mSP/namkin2.jpg",
+        "name": "Masala Namkeen",
+        "bdt": 180,
+        "rate": 4
+    },
+    {
+        "id": "623eb9a27bc0e8b11da43469",
+        "picture": "https://i.ibb.co/6yJdpzW/salted1.jpg",
+        "name": "Karamel Biscuit",
+        "bdt": 300,
+        "rate": 4
+    }
+]
