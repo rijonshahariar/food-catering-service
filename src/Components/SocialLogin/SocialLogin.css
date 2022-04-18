@@ -1,0 +1,8 @@
+.devider {
+    height: 1px;
+    background-color: gray;
+}
+
+.pointer img {
+    cursor: pointer;
+}
