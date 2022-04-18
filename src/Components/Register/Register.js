@@ -3,6 +3,7 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../Firebase/firebase.init';
 import login from '../Images/4957136.jpg';
+import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 
@@ -20,7 +21,7 @@ const Register = () => {
 
     const [createUserWithEmailAndPassword, user, loading, hookerror] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     if (loading) {
-        return <p>Loading..</p>
+        return <Loading></Loading>
     }
 
     if (user) {
@@ -49,20 +50,20 @@ const Register = () => {
                 <form onSubmit={handleUserSignUp}>
                     <h2 className="text-center text-primary mb-4">Register</h2>
                     <div className="mb-3">
-                        <label htmlFor="name" className="form-label">Your name</label>
+                        <label htmlhtmlFor="name" className="form-label">Your name</label>
                         <input type="name" onChange={(e) => setName(e.target.value)} name='name' className="form-control" required />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="email" className="form-label">Email address</label>
+                        <label htmlhtmlFor="email" className="form-label">Email address</label>
                         <input type="email" onChange={(e) => setEmail(e.target.value)} name='email' className="form-control" required />
                         <div id="emailHelp" className="form-text ">We'll never share your email with anyone else.</div>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="Password" className="form-label">Password</label>
+                        <label htmlhtmlFor="Password" className="form-label">Password</label>
                         <input type="password" onChange={(e) => setPassword(e.target.value)} name='password' className="form-control" required />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="confirmpassword" className="form-label">Confirm Password</label>
+                        <label htmlhtmlFor="confirmpassword" className="form-label">Confirm Password</label>
                         <input type="password" onChange={(e) => setConfirmPassword(e.target.value)} name='confirmPassword' className="form-control" required />
                     </div>
                     <p className="mt-2 text-danger">{hookerror?.message}</p>
