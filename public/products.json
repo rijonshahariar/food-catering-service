@@ -3,6 +3,7 @@
         "id": "623eb9a23e8db81caa212218",
         "picture": "https://i.ibb.co/MMNF0MC/kalogam.jpg",
         "name": "Kalojam",
+        "desc": "a small sample platter, literally translates to “amuse the mouth”",
         "bdt": 400,
         "rate": 4
     },
@@ -10,6 +11,7 @@
         "id": "623eb9a29ecc0db3d38529dc",
         "picture": "https://i.ibb.co/6yVzSvJ/pineapple-sandesh.jpg",
         "name": "Pineapple Sandesh",
+        "desc": "a seasoning containing grated lemon zest, minced garlic, and minced parsley",
         "bdt": 385,
         "rate": 4
     },
@@ -17,6 +19,7 @@
         "id": "623eb9a2950eabb29d7143e7",
         "picture": "https://i.ibb.co/3v39HVp/penda.jpg",
         "name": "Penda Sweet",
+        "desc": "partially refined light brown cane sugar originally from Guyana",
         "bdt": 250,
         "rate": 4
     },
@@ -24,6 +27,7 @@
         "id": "623eb9a266e84a09a0a168d0",
         "picture": "https://i.ibb.co/1LSfgRG/chicken-khichuri.jpg",
         "name": "Chicken Khichuri",
+        "desc": "produced in limited quantities by an artisan",
         "bdt": 300,
         "rate": 4
     },
@@ -31,6 +35,7 @@
         "id": "623eb9a2ecdba868286d3ba1",
         "picture": "https://i.ibb.co/1strKjm/sahi-porota.jpg",
         "name": "Shahi Porota",
+        "desc": "a flavor that is stimulating to the palette occurring after a meal",
         "bdt": 100,
         "rate": 5
     },
@@ -38,6 +43,7 @@
         "id": "623eb9a239bb8fc38721d082",
         "picture": "https://i.ibb.co/L9BJ7nr/beef-curry.jpg",
         "name": "Beef Curry",
+        "desc": "food that is cooked slowly until it browns and becomes sweet in taste",
         "bdt": 320,
         "rate": 3
     },
@@ -45,6 +51,7 @@
         "id": "623eb9a25b1c853106efa58b",
         "picture": "https://i.ibb.co/Dbn51MJ/chicken-grill.jpg",
         "name": "Chicken Grill",
+        "desc": "a dish that packs a spicy punch, full in flavor",
         "bdt": 100,
         "rate": 4
     },
@@ -52,6 +59,7 @@
         "id": "623eb9a2ff31fee084195f95",
         "picture": "https://i.ibb.co/84p403m/Chicken-Shawarma-Burger.jpg",
         "name": "Chicken Burger",
+        "desc": "a mix of carrots, celery, onion, and herbs that seasons soups",
         "bdt": 80,
         "rate": 3
     },
@@ -59,6 +67,7 @@
         "id": "623eb9a2c226b7a071e161e1",
         "picture": "https://i.ibb.co/wyMmQ9b/chicken-biryani.jpg",
         "name": "Chicken Biryani",
+        "desc": "something that has the power to give you the sensation of taste",
         "bdt": 125,
         "rate": 5
     },
@@ -66,6 +75,7 @@
         "id": "623eb9a2456440dc23bb8829",
         "picture": "https://i.ibb.co/2sjKYPT/laddu1.jpg",
         "name": "Laddu",
+        "desc": "food that has been soaked in a flavorful liquid",
         "bdt": 120,
         "rate": 4
     },
@@ -73,6 +83,7 @@
         "id": "623eb9a27bc0e8b11dt43469",
         "picture": "https://i.ibb.co/2Z50mSP/namkin2.jpg",
         "name": "Masala Namkeen",
+        "desc": "a pleasing mix of bitterness and sweetness",
         "bdt": 180,
         "rate": 4
     },
@@ -80,6 +91,7 @@
         "id": "623eb9a27bc0e8b11da43469",
         "picture": "https://i.ibb.co/6yJdpzW/salted1.jpg",
         "name": "Karamel Biscuit",
+        "desc": " smooth, rich texture, usually used to describe something that includes dairy",
         "bdt": 300,
         "rate": 4
     }

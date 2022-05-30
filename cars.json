@@ -1,0 +1,112 @@
+[
+    {
+        "_id": 1,
+        "name": "Vauxhall Mokka",
+        "supplier": "Vauxhall",
+        "email": "",
+        "price": 30000,
+        "quantity": 30,
+        "description": "Are you after a funky-looking SUV which is packed with tech? Then look no further than the Vauxhall Mokka. It’s a great car for family life as well, and you can have one on your driveway with a £1250 deposit contribution and 4.9% APR. ",
+        "img": "https://i.ibb.co/SQqBNXy/getImage.png",
+        "sold": 0
+    },
+    {
+        "_id": 2,
+        "name": "Hyundai Tucson",
+        "supplier": "Hyundai",
+        "email": "",
+        "price": 45000,
+        "quantity": 15,
+        "description": "No family SUV stands out at the school gates quite like the Hyundai Tucson. You also get plenty of luggage and passenger space and, with an interior as high quality as this, it really is Champagne motoring for lemonade money. Pick up a Tucson through carwow and you can get a £2,250 deposit contribution and 4.9% APR.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-1.png",
+        "sold": 0
+    },
+    {
+        "_id": 3,
+        "name": "Toyota Supra",
+        "supplier": "Toyota",
+        "email": "",
+        "price": 35000,
+        "quantity": 16,
+        "description": "Having a comfortable daily driver is important, but what if you want a fun sports car? Luckily, the Toyota Supra can be both. It’s a great looking thing as well, and it’s got one of the best infotainment systems in the business. You can have one in your garage with 0% APR and a £2,000 deposit contribution.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-2.png",
+        "sold": 0
+    },
+    {
+        "_id": 4,
+        "name": "Citroen e-C4",
+        "supplier": "Citroen",
+        "email": "",
+        "price": 39000,
+        "quantity": 13,
+        "description": "Would you like some Parisian flair on your driveway? Check out the Citroen e-C4. You also get 217-miles of electric range, and fast charging is available for speedy top-ups on long journeys. Grab a new e-C4 through carwow for a £1,650 deposit contribution and 5.9% APR.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-3.png",
+        "sold": 0
+    },
+    {
+        "_id": 5,
+        "name": "Volkswagen T-Cross",
+        "supplier": "Volkswagen",
+        "email": "",
+        "price": 38000,
+        "quantity": 0,
+        "description": "It's great having a high-riding driving position, and with the Volkswagen T-Cross you can enjoy that in a package which is small enough for city streets. You still get plenty of passenger space and generous standard equipment, and you can have one with a £1,500 deposit contribution and 5.6% APR.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-4.png",
+        "sold": 0
+    },
+    {
+        "_id": 6,
+        "name": "Peugeot 208",
+        "supplier": "Peugeot",
+        "email": "",
+        "price": 36000,
+        "quantity": 20,
+        "description": "Superminis are no longer just boring runarounds, just look at the Peugeot 208. It’s a great looking thing, with an interior which is straight out of the future and a great selection of engines to suit all needs. You can have one pronto with 6.9% APR on finance.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-5.png",
+        "sold": 0
+    },
+    {
+        "_id": 7,
+        "name": "Honda Jazz",
+        "supplier": "Honda",
+        "email": "",
+        "price": 42000,
+        "quantity": 22,
+        "description": "The Honda Jazz really is like Doctor Who's Tardis, because it offers a huge amount of interior space for such a small car. It’s easy to drive in town, economical and packed with clever features. Get one on finance with 5% APR and you'll have it on your driveway in no time.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-6.png",
+        "sold": 0
+    },
+    {
+        "_id": 8,
+        "name": "Audi Q2",
+        "supplier": "Audi",
+        "email": "",
+        "price": 46000,
+        "quantity": 0,
+        "description": "Audi is very good at making stylish SUVs, and the Q2 is no exception. It’s relaxing to dive, well built and easy to navigate around town. It would make a classy addition to anyone's driveway, and you can have one straight away with a £1,500 deposit contribution.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-7.png",
+        "sold": 0
+    },
+    {
+        "_id": 9,
+        "name": "Mercedes EQA",
+        "supplier": "Mercedes",
+        "email": "",
+        "price": 44000,
+        "quantity": 0,
+        "description": "The classy Mercedes EQA is perfect if you're looking for a premium edge to your new electric car. It’s quiet on the move, offers plenty of space for yourself and passengers while coming equipped with Mercedes’ excellent infotainment tech.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-8.png",
+        "sold": 0
+    },
+    {
+        "_id": 10,
+        "name": "Peugeot e-2008",
+        "supplier": "Peugeot",
+        "email": "",
+        "price": 48000,
+        "quantity": 25,
+        "description": "The Peugeot e-2008 is a great looking SUV, whether you're looking at it from the outside or sitting in the modern cabin. There’s also plenty of space for all the passengers to enjoy some Parisian flair and a respectable 192-miles of range.",
+        "img": "https://i.ibb.co/0rjMBQ7/get-Image-9.png",
+        "sold": 0
+    }
+]

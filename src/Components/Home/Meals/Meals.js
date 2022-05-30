@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MealCard from '../MealCard/MealCard'
+import './Meals.css'
 const Meals = () => {
 
     const [meals, setMeals] = useState([]);
@@ -12,7 +13,7 @@ const Meals = () => {
     return (
         <>
             <div id='menu' className="text-center">
-                <h1>Most Popular Cuisine</h1>
+                <h1 className="heading">MOST POPULAR CUISINE</h1>
             </div>
 
             <div className="container mt-5 mb-5">
